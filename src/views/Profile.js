@@ -1,7 +1,7 @@
 import React from "react";
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row, Col, Button } from "reactstrap";
 
-import Highlight from "../components/Highlight";
+// import Highlight from "../components/Highlight";
 import Loading from "../components/Loading";
 import { useAuth0, withAuthenticationRequired } from "@auth0/auth0-react";
 
@@ -10,6 +10,14 @@ export const ProfileComponent = () => {
 
   return (
     <Container className="mb-5">
+      <Button
+          id="earlyreg-btn"
+          color="primary"
+          className="btn-margin"
+        >
+        Edit Profile
+      </Button>
+      <br /><br />
       <Row className="align-items-center profile-header mb-5 text-center text-md-left">
         <Col md={2}>
           <img
@@ -24,7 +32,16 @@ export const ProfileComponent = () => {
         </Col>
       </Row>
       <Row>
-        <Highlight>{JSON.stringify(user, null, 2)}</Highlight>
+        <Col>
+          <label>Username:</label>
+          <input label="username" type="text" readyonly value="johndoe1"></input>
+        </Col>  
+      </Row>
+      <Row>
+        <Col>
+          <label>Bank Name:</label>
+          <input label="bankname" type="text" readonly value="Bank of Fiserv"></input>
+        </Col>   
       </Row>
     </Container>
   );

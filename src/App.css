@@ -7,7 +7,7 @@ body {
   height: 45px;
 }
 .hero {
-  max-width:900px;
+  max-width:964px;
 }
 .next-steps .fa-link {
   margin-right: 5px;
@@ -82,8 +82,57 @@ h3 {
 h6 {
   margin-bottom:0 !important;
 }
+.navbar .nav-link {
+  color:#fff;
+  text-decoration: none;
+  font-style:normal;
+  padding:10px;
+}
+.navbar .nav-link:hover, .navbar .nav-link:active {
+  border-bottom: 6px solid #ffffff;
+  padding-bottom:4px;
+}
 .mt-5, .my-5 {
   margin-top:1.5rem !important;
+}
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.hero-info {
+  width:80%;
+  order:1;
+  float:left;
+  padding-right:5px;
+}
+.hero-sidebar {
+  width:20%;
+  order:2;
+  float:right;
+  padding-left:5px;
+}
+h2.earlyreg-header {
+  background:#000;
+  color:#fff;
+  font-size:14px;
+  padding:10px;
+  font-weight:bold;
+  margin-bottom:0;
+}
+div.earlyreg-box{
+  border-left:1px solid #ccc;
+  border-right:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+  min-height:192px;
+  font-size:14px;
+  padding:10px;
+}
+button#earlyreg-btn {
+  font-style:normal;
+  font-weight:bold;
+  font-size:16px;
+  color:#fff;
 }
 .hero-info {
   text-align:left;
@@ -121,4 +170,8 @@ footer {
 }
 footer a, footer a:hover {
   color:#fff;
+}
+
+#external-api {
+  display:none;
 }

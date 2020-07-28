@@ -29,7 +29,15 @@ class Content extends Component {
             {Seminars.map((col, i) => (
               <Col key={i} md={5} className="mb-4 col-location">
                 <h6 className="mb-3">
-                    {/* <FontAwesomeIcon icon="link" className="mr-2" /> */}
+                    {col.location}
+                </h6>
+              </Col>
+            ))}
+          </Row>
+          <Row className="d-flex justify-content-between">
+            {Seminars.map((col, i) => (
+              <Col key={i} md={5} className="mb-4 col-location">
+                <h6 className="mb-3">
                     {col.location}
                 </h6>
               </Col>
