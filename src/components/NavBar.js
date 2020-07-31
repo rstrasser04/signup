@@ -41,13 +41,6 @@ const NavBar = () => {
         <Container>
           <a href="/"><NavbarBrand className="logo" /></a>
           <NavLink
-            href="http://www.cvent.com/events/precision-education-seminar-kansas-city/custom-18-21922ee8971e4a55817308085ca00ad0.aspx?tw=89-35-A4-21-E8-C3-DD-48-00-E5-35-2E-74-C4-A8-C8"
-            exact
-            activeClassName="router-link-exact-active"          
-          >
-            Dates and Locations
-          </NavLink>
-          <NavLink
             href="http://www.cvent.com/events/precision-education-seminar-kansas-city/custom-19-21922ee8971e4a55817308085ca00ad0.aspx?tw=89-35-A4-21-E8-C3-DD-48-00-E5-35-2E-74-C4-A8-C8"
             exact
             activeClassName="router-link-exact-active"

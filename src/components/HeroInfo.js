@@ -17,18 +17,18 @@ const HeroInfo = () => (
          </p>
       <h3>Seminar Fees</h3>
          <ul>
-            <li>Early registration fee: 
+            <li>Early registration fee through August 31: 
                <ul>
-                  <li>$450 per connection through August 31</li>
-                  <li>$850 for <b>2</b> connections</li>
+                  <li>$450 per connection</li>
+                  <li>$850 for <b>2</b> connections - *Recordings included</li> 
                </ul>
             </li>
             <br />
-            <li>Standard registration fee:
+            <li>Standard registration fee after August 31:
                <ul>
-                  <li>$500 per connection through August 31</li>
-                  <li>$950 for <b>2</b> connections</li>
-                  <li>$1,750 for <b>3</b> connections</li>
+                  <li>$500 per connection</li>
+                  <li>$950 for <b>2</b> connections - *Recordings included</li>
+                  <li>$1,750 for <b>3</b> connections - *Recordings included</li>
                </ul>
             </li>
          </ul>
